@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+}
+
+.button-nav {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.button-nav:hover {
+  background-color: #686c98;
+}
+
+.kontacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--primary-text-color);
+}
+
+.kontacts:hover,
+.kontacts:focus {
+  color: #404bbf;
+}
+
+/* заголовки */
+
+.hero-title {
+  color: #ffffff;
+  background: #2e2f42;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.title {
+  color: var(--title-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+/* .title-add  треба зробити невидимим*/
+
+.subtitle {
+  color: var(--title-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* текст */
+
+.text {
+  color: var(--primary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
