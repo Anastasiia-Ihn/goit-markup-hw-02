@@ -1,19 +1,100 @@
-body {
-  font-family: "Roboto";
-  font-style: normal;
-}
 :root {
+  /* Fonds */
+  --primary-font: "Roboto", sans-serif;
+  --secondery-font: "Raleway", sans-serif;
+
+  /* Color */
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
+
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-green: #31d0aa;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+
+body {
+  font-family: var(--primary-font);
+  letter-spacing: 0.02em;
+}
+
+/* заголовки */
+/* h1 */
+.hero-title {
+  color: var(--color-white);
+  background: var(--color-navy-blue-modal);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+/* h2 */
+.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+/* .title-add  треба зробити невидимим*/
+/* h3 */
+.subtitle {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* text */
+
+.text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.small-text {
+  font-size: 12px;
+  line-height: 0.86;
+  letter-spacing: 0.04em;
+}
+
+/* nav */
+
+.link {
+  text-decoration: none;
+}
+
+.site-nav,
+.kontacts-list,
+.list {
+  list-style: none;
+}
+
+.site-nav-item {
+  color: var(--color-navy-blue-modal);
 }
 
 .button-nav {
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--color-white);
+  background-color: var(--color-iris);
 }
 
-.button-nav:hover {
-  background-color: #686c98;
+.button-nav:hover,
+.button-nav:focus,
+.button-nav:active {
+  background-color: var(--color-ocean);
+}
+
+.kontacts-mail,
+.kontacts-tel {
+  color: var(--primary-text-color);
+  font-style: normal;
 }
 
 .kontacts {
@@ -24,50 +105,24 @@ body {
   color: var(--primary-text-color);
 }
 
-.kontacts:hover,
-.kontacts:focus {
-  color: #404bbf;
+.site-nav-item:hover,
+.site-nav-item:focus {
+  color: var(--color-ocean);
 }
 
-/* заголовки */
-
-.hero-title {
-  color: #ffffff;
-  background: #2e2f42;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+.kontacts-tel:hover,
+.kontacts-tel:focus {
+  color: var(--color-ocean);
 }
 
-.title {
-  color: var(--title-text-color);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+/* logo */
+.logo {
+  font-family: var(--secondery-font);
+  color: var(--color-iris);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-
-/* .title-add  треба зробити невидимим*/
-
-.subtitle {
-  color: var(--title-text-color);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-/* текст */
-
-.text {
-  color: var(--primary-text-color);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+.logo-part {
+  color: var(--color-navy-blue-modal);
 }
