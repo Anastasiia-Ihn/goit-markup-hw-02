@@ -23,6 +23,7 @@ body {
   font-family: var(--primary-font);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  background-color: var(--color-white);
 }
 
 /* заголовки */
@@ -32,29 +33,45 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 /* h2 */
 .title {
   color: var(--title-text-color);
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 /* .title-add  треба зробити невидимим*/
+
 /* h3 */
 .subtitle {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .list a {
   text-decoration: none;
 }
+.section-about,
+.section-work {
+  background: #e5e5e5;
+}
 
 .hero {
   background: var(--color-navy-blue-modal);
+}
+
+.section-team {
+  background-color: var(--color-cloud);
+}
+.item-team {
+  background-color: #ffffff;
 }
 
 .footer {
@@ -80,8 +97,6 @@ body {
   text-decoration: none;
 }
 
-.site-nav,
-.kontacts-list,
 .list {
   list-style: none;
 }
@@ -90,11 +105,27 @@ body {
   color: var(--color-navy-blue-modal);
 }
 
+.site-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.site-nav-item:hover,
+.site-nav-item:focus {
+  color: var(--color-ocean);
+}
+
 .button-nav {
   color: var(--color-white);
   background-color: var(--color-iris);
   cursor: pointer;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -116,13 +147,8 @@ body {
 .kontacts {
   font-size: 16px;
   line-height: 1.5;
-
+  font-style: normal;
   color: var(--primary-text-color);
-}
-
-.site-nav-item:hover,
-.site-nav-item:focus {
-  color: var(--color-ocean);
 }
 
 .kontacts-mail:hover,
@@ -137,6 +163,10 @@ body {
 .logo {
   font-family: var(--secondery-font);
   color: var(--color-iris);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -151,10 +181,16 @@ body {
 }
 
 /* Portfolio */
+
 .button-portfolio {
   color: var(--color-iris);
   background-color: var(--color-cloud);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .button-filter:hover,
 .button-filter:focus {
