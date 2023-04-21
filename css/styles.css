@@ -115,6 +115,8 @@ ul {
 }
 
 .site-nav-item {
+  display: inline-block;
+  margin-right: 40px;
   color: var(--color-navy-blue-modal);
 }
 
@@ -123,11 +125,23 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .site-nav-item:hover,
 .site-nav-item:focus {
   color: var(--color-ocean);
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 96px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.container-nav {
+  display: flex;
 }
 
 .button-nav {
@@ -150,11 +164,17 @@ ul {
 .button-nav:focus {
   background-color: var(--color-ocean);
 }
+.kontacts-mail {
+  margin-right: 40px;
+}
 
 .kontacts-mail,
 .kontacts-tel {
   color: var(--primary-text-color);
   font-style: normal;
+}
+.kontacts-list {
+  display: flex;
 }
 
 .kontacts {
@@ -184,6 +204,7 @@ ul {
   flex-direction: row;
   align-items: center;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-part {
   color: var(--color-navy-blue-modal);
@@ -207,8 +228,14 @@ ul {
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
   padding: 12px 24px;
-  /* margin-right:24px; чи треба обнуляти останню кнопку? */
+  margin-right: 24px;
 }
+/* чи треба обнуляти останню кнопку? */
+
+/* .list-item {
+  border: 1px solid var(--color-cornflower);
+} */
+
 .button-filter:hover,
 .button-filter:focus {
   color: var(--color-white);
@@ -225,4 +252,39 @@ ul {
 }
 .logo-footer {
   margin-bottom: 17.5px;
+  padding-top: 101.5px;
+}
+
+.button-portfolio-contaiter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.list-container-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+.list-container-portfolio:nth-child(3n) {
+  margin-right: 0;
+}
+
+.img-portfolio {
+  margin-bottom: 32px;
+}
+.name-item-portfolio {
+  margin-left: 16px;
+  margin-bottom: 32px;
+}
+.name-item {
+  margin-bottom: 8px;
+}
+.container-footer {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
+.container-main {
+  padding-bottom: 120px;
 }

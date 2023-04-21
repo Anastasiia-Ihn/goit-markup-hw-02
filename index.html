@@ -11,44 +11,50 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> -->
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
-      <nav class="list">
-        <a href="./index.html" class="logo link"
-          >Web <span class="logo-part">Studio</span>
-        </a>
+      <div class="container container-header">
+        <nav class="list container-nav">
+          <a href="./index.html" class="logo link"
+            >Web <span class="logo-part">Studio</span>
+          </a>
 
-        <ul class="site-nav list link">
-          <li><a class="site-nav-item link" href="./index.html">Studio</a></li>
-          <li>
-            <a class="site-nav-item link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="site-nav-item link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="kontacts list">
-        <ul class="kontacts-list list">
-          <li>
-            <a class="kontacts-mail link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="kontacts-mail link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+          <ul class="site-nav list link">
+            <li>
+              <a class="site-nav-item link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="site-nav-item link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="site-nav-item link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="kontacts list">
+          <ul class="kontacts-list list">
+            <li>
+              <a class="kontacts-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="kontacts-mail link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!-- Text -->
     <main>
@@ -141,13 +147,17 @@
     </main>
 
     <footer class="footer">
-      <a href="./index.html" class="logo link"
-        >Web <span class="logo-part-footer">Studio</span>
-      </a>
-      <p class="small-text text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container container-footer">
+        <div class="logo-footer">
+          <a href="./index.html" class="logo link"
+            >Web <span class="logo-part-footer">Studio</span>
+          </a>
+        </div>
+        <p class="small-text text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
