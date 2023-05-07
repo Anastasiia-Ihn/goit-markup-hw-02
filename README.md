@@ -22,3 +22,7 @@ overflow: hidden;
 Генератор nth-child https://nthchild.kawalekkodu.pl/en/
 
 нормалізатор +
+
+https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-attrs-sorter
+
+https://www.loom.com/share/e21498044ffa43c2a44cbc38db4f9f70
